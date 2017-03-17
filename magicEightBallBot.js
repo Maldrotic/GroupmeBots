@@ -4,7 +4,7 @@ var answers = ['It is certain', 'It is decidedly so', 'Without a doubt', 'Yes de
 
 function callbackIfTextMatches(requestText, callback) {
   if (requestText != '' && botRegex.test(requestText)) {
-    callback(answers[Math.random() * answers.length]);
+    callback(answers[Math.round(Math.random() * answers.length)]);
   }
 }
 
