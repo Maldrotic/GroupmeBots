@@ -8,4 +8,4 @@ function callbackIfTextMatches(requestText, callback) {
   }
 }
 
-exports.respond = respond;
+exports.callbackIfTextMatches = callbackIfTextMatches;
