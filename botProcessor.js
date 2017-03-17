@@ -32,13 +32,13 @@ function postMessage(message) {
     "text" : message
   };
 
-  console.log('sneding ' + message + ' to ' + botID);
+  console.log('sending ' + message + ' to ' + botID);
 
   botReq = HTTPS.request(options, function(res) {
     if (res.statusCode == 202) {
       // neat
     } else {
-      console.log('rejecting ad status code ' + res.statusCode);
+      console.log('rejecting bad status code ' + res.statusCode);
     }
   });
 
