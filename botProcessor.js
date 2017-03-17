@@ -1,6 +1,6 @@
 var HTTPS = require('https');
 
-var maigcEigthBallBot = require('./magicEightBallBot.js');
+var magicEightBallBot = require('./magicEightBallBot.js');
 
 var botID = process.env.BOT_ID;
 
