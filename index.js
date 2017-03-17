@@ -27,6 +27,8 @@ server = http.createServer(function (req, res) {
 port = Number(process.env.PORT || 5000);
 server.listen(port);
 
+console.log('listening on ' + port);
+
 function ping() {
   this.res.writeHead(200);
   this.res.end("Test Bot");
