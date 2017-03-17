@@ -1,0 +1,22 @@
+{
+  "name": "groupmebots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maldrotic/GroupmeBots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maldrotic/GroupmeBots/issues"
+  },
+  "homepage": "https://github.com/Maldrotic/GroupmeBots#readme",
+  "dependencies": {
+    "director": "^1.2.8"
+  }
+}
